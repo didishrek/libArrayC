@@ -4,9 +4,18 @@
 
 int main(void)
 {
-  int ar[6] = {0,1,2,3,4,5};
+  int ar[6] = {5,4,3,2,1,0};
   int *nu = NULL;
 
+  for (int i = 0; i < 6; i++)
+    printf("%d\n", ar[i]);
+
+  printf("\n\n");
+  InsertionSort(ar, 6);
+
+  for (int i = 0; i < 6; i++)
+    printf("%d\n", ar[i]);
+  
   printf("Find 5 :\n");
   printf("result : %d\n", SequentialSearch(5, ar, 6));
   printf("result : %d\n", DichotomicSearch(5, ar, 6));

@@ -5,7 +5,7 @@
 ** Login   <schric_a@epitech.eu>
 **
 ** Started on  Fri Jun 19 17:27:46 2015 Adrien Schricke
-** Last update Tue Jul  7 17:24:17 2015 Adrien Schricke
+** Last update Thu Jul  9 00:04:54 2015 Adrien Schricke
 */
 
 #ifndef   INTEGERARRAY_H_
@@ -15,6 +15,8 @@
 
 /* Sort */
 /* Insertion Sort */
+void	InsertionSort(int *, size_t);
+
 /* Introsort */
 
 
