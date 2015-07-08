@@ -5,7 +5,7 @@
 ## Login   <schric_a@epitech.net>
 ##
 ## Started on  Fri Jun 19 16:26:36 2015 Adrien Schricke
-## Last update Tue Jul  7 16:20:24 2015 Adrien Schricke
+## Last update Tue Jul  7 17:26:48 2015 Adrien Schricke
 ##
 
 NAME=		libarray.so
@@ -16,7 +16,8 @@ else
 CC=			gcc
 endif
 
-SRC=	 	src/integer/SequentialSearch.c
+SRC=	 	src/integer/SequentialSearch.c \
+		src/integer/DichotomicSearch.c
 
 OBJ=		$(SRC:.c=.o)
 

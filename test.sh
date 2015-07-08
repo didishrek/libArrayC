@@ -3,7 +3,7 @@
 function myerror
 {
   if [ $? -ne 0 ] ; then
-    echo "FAIL"
+    echo "$? FAIL"
     exit 1
   else
     echo "DONE"

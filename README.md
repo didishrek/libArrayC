@@ -13,4 +13,4 @@ To create a dynamic library with some algorithm to manage array.
     	+ Unsorted Array :
     		+ 	Sequential search [x]
     	+ Sorted Array:
-    		+ 	Dichotomic search
+    		+ 	Dichotomic search [x]
